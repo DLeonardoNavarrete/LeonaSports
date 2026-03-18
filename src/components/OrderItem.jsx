@@ -1,5 +1,3 @@
-import React from 'react';
-
 const OrderItem = ({ order, onUpdateStatus, onDelete }) => {
   return (
     <div className={`order-card status-${order.status.toLowerCase()}`}>
