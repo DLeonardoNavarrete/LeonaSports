@@ -22,7 +22,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>Gestión de Pedidos Profesional</h1>
+      <h1>Gestión de Pedidos</h1>
       <OrderForm onAddOrder={addOrder} />
       
       <div className="orders-list">
