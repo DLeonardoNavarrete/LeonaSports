@@ -9,7 +9,6 @@ import Header from './components/Header';
 import './diseño/App.css';
 
 const App = () => {
-    const [seccion, setSeccion] = useState('home');
     return (
         <div className="App">
             <Header/>
