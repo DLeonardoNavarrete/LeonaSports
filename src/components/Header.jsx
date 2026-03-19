@@ -7,6 +7,7 @@ const Header = ({ seccion }) => {
       <h1 className="nav-container">
       <nav>
         <Link to="/" className="nav-logo">Leona Sports</Link>
+        <p>Tu tienda de deportes en línea</p>
       </nav>
       </h1>
     </header>

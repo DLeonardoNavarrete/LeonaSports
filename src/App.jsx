@@ -6,7 +6,7 @@ const App = () => {
     const [seccion, setSeccion] = useState('home');
     return (
         <div className="App">
-            <Header seccion={seccion} />
+            <Header/>
             <main>
                 <h2>Bienvenido a Leona Sports</h2>
                 <p>Tu tienda de deportes en línea</p>
