@@ -12,10 +12,8 @@ const App = () => {
     return (
         <div className="App">
             <Header/>
-            <main>
-                <h2>Bienvenido a Leona Sports</h2>
-                <p>Tu tienda de deportes en línea</p>
-            </main>
+            <div className="content-App">
+            </div>
         </div>
     );
 };
