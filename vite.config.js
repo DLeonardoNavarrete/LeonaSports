@@ -6,7 +6,4 @@ import { es } from 'zod/locales'
 export default defineConfig({
   plugins: [react()],
   base: '/',
-  build: {
-    cssMinify: 'esbuild',
-  },
 })
