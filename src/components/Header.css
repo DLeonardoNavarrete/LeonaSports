@@ -1,11 +1,18 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root{
-    --primary-color: #8f2828;
-    --secundary-color: #ffffff;
+  --primary-color: #dbb754;
+  --secondary-color: #060709;
+  --tertiary-color: #cc9210;
 }
-.main-header{
+.header{
   font-family: Helvetica;
-  background: var(--primary-color);
-  color: var(--secundary-color);
+  background: var(--secondary-color);
+  color: var(--primary-color);
   width: 70%;
   height: 5vh;
   margin: 0 auto;
@@ -19,32 +26,16 @@
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
 }
 
-.nav-container {
-  display: flex;
+.header-container {
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
-.nav-logo {
+.header-logo {
   font-size: 1.4rem;
   font-weight: bold;
   text-decoration: none;
   color: var(--secundary-color);
-}
-
-.nav-links {
-  display: flex;
-  gap: 20px;
-}
-
-.nav-link {
-  color: var(--secundary-color);
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.nav-link:hover {
-  color: #ffee00;
 }
