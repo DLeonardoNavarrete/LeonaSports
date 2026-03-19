@@ -1,6 +1,12 @@
+// Librerías
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import './diseño/App.css';
+
+// Componentes
 import Header from './components/Header';
+
+// Estilos
+import './diseño/App.css';
 
 const App = () => {
     const [seccion, setSeccion] = useState('home');
