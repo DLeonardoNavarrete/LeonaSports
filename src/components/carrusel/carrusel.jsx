@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import './Carrusel.css';
 
-const Carrusel = ({ imagenes, tituloSeccion, parrafoSeccion, idSeccion }) => {
+const carrusel = ({ imagenes, tituloSeccion, parrafoSeccion, idSeccion }) => {
   const handleShare = async (titulo, texto, id) => {
     const esIndex = window.location.pathname === '/';
     const urlFinal = esIndex ? `${window.location.origin}/#/${id}` : window.location.href;
@@ -75,4 +75,4 @@ const Carrusel = ({ imagenes, tituloSeccion, parrafoSeccion, idSeccion }) => {
     </div>
   );
 };
-export default Carrusel;
+export default carrusel;
