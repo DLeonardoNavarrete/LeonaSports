@@ -3,7 +3,7 @@ import { Pagination, } from 'swiper/modules';
 import { Link } from 'react-router-dom';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import './Carrusel.css';
+import './carrusel.css';
 
 const carrusel = ({ imagenes, tituloSeccion, parrafoSeccion, idSeccion }) => {
   const handleShare = async (titulo, texto, id) => {
