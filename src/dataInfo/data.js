@@ -1,4 +1,4 @@
-export const carrusel = [
+export const countries= [
     {
         id: 1,
         titulo: "Bienvenida a Leona Sports",
