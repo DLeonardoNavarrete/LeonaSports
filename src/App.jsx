@@ -1,6 +1,6 @@
 // Componentes
 import Header from './components/header/Header';
-import Carrusel from './components/carrusel/Carrusel';
+import Carrusel from './components/carrusel/carrusel';
 
 // DataInfo
 import { countries } from './dataInfo/data';

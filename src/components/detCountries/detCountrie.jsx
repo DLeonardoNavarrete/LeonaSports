@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { detCountries } from '../../dataInfo/data';
-import Carrusel from '../carrusel/Carrusel';
+import Carrusel from '../carrusel/carrusel';
 
 function DetCountrie() {
   const { id } = useParams();
