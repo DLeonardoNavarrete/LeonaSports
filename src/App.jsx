@@ -6,19 +6,19 @@ import { useState } from 'react';
 // Componentes
 import Header from './components/header/Header';
 import Carrusel from './components/carrusel/carrusel';
-import { countries, } from '../../dataInfo/data';
+import { countries, } from './dataInfo/data';
 
 // Estilos
 import './diseño/App.css';
 
-const App = () => {
+function App() {
     return (
         <div className="App">
             <Header />
             <div className="content-App">
-                {carPrin.map(data => (
-                <Carrusel key={data.id} imagenes={data.imagenes} />
-              ))}
+                {countries.map(data => (
+                    <Carrusel key={data.id} imagenes={data.imagenes} />
+                ))}
             </div>
         </div>
     );
