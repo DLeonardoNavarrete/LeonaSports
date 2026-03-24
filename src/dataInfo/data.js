@@ -6,6 +6,7 @@ export const countries= [
         titulo: "Seleccion Colombia",
         parrafo: "Camiseta para Hombre y mujer, del mundial 2026",
         imagenes: [
+            {src: "/images/logo.png", },
             {src: "/images/logo.png", }
         ]
     },
