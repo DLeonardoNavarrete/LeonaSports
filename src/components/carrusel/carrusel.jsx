@@ -6,20 +6,6 @@ import 'swiper/css/pagination';
 import './carrusel.css';
 
 const carrusel = ({ imagenes, tituloSeccion, parrafoSeccion, idSeccion }) => {
-  const handleShare = async (titulo, texto, id) => {
-    const esIndex = window.location.pathname === '/';
-    const urlFinal = esIndex ? `${window.location.origin}/#/${id}` : window.location.href;
-    try {
-      if (navigator.share) {
-        await navigator.share({ title: titulo, text: texto, url: urlFinal });
-      } else {
-        await navigator.clipboard.writeText(urlFinal);
-        alert("Enlace copiado" + urlFinal);
-      }
-    } catch (err) {
-      console.error("Error al compartir:", err);
-    }
-  };
   return (
     <div className="carrusel-item" id={idSeccion}>
       <Swiper
@@ -60,12 +46,6 @@ const carrusel = ({ imagenes, tituloSeccion, parrafoSeccion, idSeccion }) => {
                   <div className='info'>
                     <p>{img.info}</p>
                   </div>
-                  <button 
-                    className="btn-share" 
-                    onClick={() => handleShare(tituloSeccion, parrafoSeccion, idSeccion)}
-                  >
-                    <i className='fa-solid fa-share-nodes'></i> Compartir
-                  </button>
                 </div>
               )}
             </div>
