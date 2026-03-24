@@ -18,8 +18,8 @@ function App() {
         <div className="App">
             <Header />
             <div className="content-App">
-                {countries.map(data => (
-                    <Carrusel key={data.id} imagenes={data.imagenes} />
+                {countries.map((item) => (
+                    <Carrusel key={item.id} imagenes={item.imagenes} />
                 ))}
             </div>
         </div>
