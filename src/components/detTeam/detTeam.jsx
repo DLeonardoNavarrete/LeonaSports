@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom';
 import { detCountries } from '../../dataInfo/data';
 import Carrusel from '../carrusel/carrusel';
 
-function DetCountrie() {
+function DetTeam() {
   const { id } = useParams();
   const contenido = detCountries.find(
     (seccion) => String(seccion.id) === String(id)
@@ -29,4 +29,4 @@ function DetCountrie() {
   );
 }
 
-export default DetCountrie;
+export default DetTeam;
