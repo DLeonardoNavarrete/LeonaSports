@@ -6,7 +6,9 @@ import { useState } from 'react';
 // Componentes
 import Header from './components/header/Header';
 import Carrusel from './components/carrusel/carrusel';
-import { countries, } from './dataInfo/data';
+
+// DataInfo
+import { countries, detCountries } from './dataInfo/data';
 
 // Estilos
 import './diseño/App.css';
