@@ -1,10 +1,39 @@
+import { id } from "zod/locales";
+
 export const countries= [
     {
         id: 1,
-        titulo: "Bienvenida a Leona Sports",
-        parrafo: "¡Bienvenidos a Leona Sports! Somos una comunidad apasionada por el deporte, dedicada a compartir noticias, eventos y contenido exclusivo sobre el mundo deportivo. Únete a nosotros para estar al tanto de las últimas novedades y disfrutar de una experiencia única en el mundo del deporte.",
+        titulo: "Seleccion Colombia",
+        parrafo: "Camiseta para Hombre y mujer, del mundial 2026",
         imagenes: [
-            {src: "/images/logo.png", link: "/", pestañaNueva: true}
+            {src: "/images/logo.png", }
+        ]
+    },
+    {
+        id: 2,
+        titulo: "Selecciones",
+        parrafo: "Selecciones Mundialistas",
+        imagenes: [
+            {src: "/images/logo.png", link: "/"}
         ]
     }
 ];
+
+export const detCountries= [
+    {
+        id: 1,
+        titulo: "Ligas de Europa",
+        parrafo: "detalle de las ligas",
+        imagenes: [
+            {src: "/images/logo.png", link: "/"}
+        ]
+    },
+    {
+        id: 2,
+        titulo: "Ligas de Sudamerica",
+        parrafo: "detalle de las ligas de sudamérica",
+        imagenes: [
+            {src: "/images/images_coorp", }
+        ]
+    }
+]
