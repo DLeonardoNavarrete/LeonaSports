@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import './carrusel.css';
 
-const carrusel = ({ imagenes, tituloSeccion, parrafoSeccion, idSeccion }) => {
+const Carrusel = ({ imagenes, tituloSeccion, parrafoSeccion, idSeccion }) => {
   return (
     <div className="carrusel-item" id={idSeccion}>
       <Swiper
@@ -55,4 +55,4 @@ const carrusel = ({ imagenes, tituloSeccion, parrafoSeccion, idSeccion }) => {
     </div>
   );
 };
-export default carrusel;
+export default Carrusel;
