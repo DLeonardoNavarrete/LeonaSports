@@ -8,7 +8,7 @@
   font-family: 'Bebas Neue';
   font-style: normal;
   font-weight: 400;
-  src: url('./assets/fonts/bebas-neue-v14-latin-regular.woff2') format('woff2');
+  src: url('../assets/fonts/bebas-neue-v16-latin-regular.woff2') format('woff2');
   font-display: swap;
 }
 
