@@ -1,0 +1,10 @@
+.carrusel-contenido {
+  width: 80%;
+  border-radius: 1px;
+  border: solid 2px #dbb754;
+  object-fit: contain;
+}
+
+.img {
+  object-fit: contain;
+}

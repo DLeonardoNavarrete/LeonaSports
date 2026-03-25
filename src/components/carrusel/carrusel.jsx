@@ -20,7 +20,7 @@ const Carrusel = ({ imagenes, tituloSeccion, parrafoSeccion, idSeccion }) => {
         {tituloSeccion && (
           <SwiperSlide>
             <div className="bienvenida">
-              <h1 className="font-bebas text-3xl text-[#dbb754] mb-3 tracking-wide">
+              <h1 className="bienvenida-titulo font-bebas text-3xl text-[#dbb754] mb-3 tracking-wide">
                 {tituloSeccion}
                 </h1>
               <p className="bienvenida-texto font-montserrat text-[#c2c1b9] leading-relaxed mb-6">
