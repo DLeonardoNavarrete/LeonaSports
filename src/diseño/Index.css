@@ -20,15 +20,3 @@
   background-color: #1A1A1A;
   color: #FFFFFF;
 }
-
-
-.carrusel-contenido {
-  width: 80%;
-  border-radius: 1px;
-  border: solid 2px #dbb754;
-  object-fit: contain;
-}
-
-.img {
-  object-fit: contain;
-}
