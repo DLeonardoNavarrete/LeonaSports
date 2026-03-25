@@ -23,10 +23,10 @@ const Carrusel = ({ imagenes, tituloSeccion, parrafoSeccion, idSeccion }) => {
               <h1 className="font-bebas text-3xl text-[#dbb754] mb-3 tracking-wide">
                 {tituloSeccion}
                 </h1>
-              <p className="bienvenida-texto font-montserrat text-sm text-gray-300 leading-relaxed mb-6">
+              <p className="bienvenida-texto font-montserrat text-[#c2c1b9] leading-relaxed mb-6">
                 {parrafoSeccion}
                 </p>
-              <div className="bienvenida-indicador font-montserrat text-sm text-gray-300 leading-relaxed mb-6">
+              <div className="bienvenida-indicador font-montserrat text-[#c2c1b9] leading-relaxed mb-6">
                 Desliza →
                 </div>
             </div>
