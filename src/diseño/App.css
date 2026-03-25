@@ -20,3 +20,11 @@
   background-color: #1A1A1A;
   color: #FFFFFF;
 }
+
+.content-App {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+  padding: 32px;
+  align-items: start;
+}
