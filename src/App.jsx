@@ -3,7 +3,7 @@ import Header from './components/header/Header';
 import Carrusel from './components/carrusel/carrusel';
 
 // DataInfo
-import { countries } from './dataInfo/data';
+import { countries, detCountries } from './dataInfo/data';
 
 // Estilos
 import './diseño/App.css';

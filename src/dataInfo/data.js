@@ -14,7 +14,18 @@ export const countries = [
     id: 2,
     titulo: 'Selecciones',
     parrafo: 'Selecciones mundialistas',
-    imagenes: [{ src: '/images/logo.png', link: '/' }],
+    imagenes: [
+      { src: '/images/contenidos/selecciones/alemania-2026-local.jpg', },
+      { src: '/images/contenidos/selecciones/argentina-2026-local.jpg', },
+      { src: '/images/contenidos/selecciones/brasil-2026-local.jpg', },
+      { src: '/images/contenidos/selecciones/españa-2026-local.jpg', },
+      { src: '/images/contenidos/selecciones/francia-2026-local.jpg', },
+      { src: '/images/contenidos/selecciones/inglaterra-2026-local.jpg', },
+      { src: '/images/contenidos/selecciones/italia-2026-local.jpg', },
+      { src: '/images/contenidos/selecciones/japon-2026-local.jpg', },
+      { src: '/images/contenidos/selecciones/mexico-2026-local.jpg', },
+      { src: '/images/contenidos/selecciones/portugal-2026-local.jpg', }
+    ],
   },
 ];
 
