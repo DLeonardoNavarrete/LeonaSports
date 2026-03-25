@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/bebas-neue-v16-latin-regular.woff2') format('woff2');
+  font-display: swap;
+}
+
+:root {
+  --primary-color: #dbb754;
+  --secondary-color: #060709;
+  --tertiary-color: #cc9210;
+  --text-color: #c2c1b9;
+  background-color: #1A1A1A;
+  color: #FFFFFF;
+}
