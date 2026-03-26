@@ -9,13 +9,18 @@ import { countries, detCountries } from './dataInfo/data';
 import './diseño/App.css';
 
 function App() {
+  const secciones = [
+    ...countries.map((item) => ({ ...item, tipo: 'country' })),
+    ...detCountries.map((item) => ({ ...item, tipo: 'det-country' })),
+  ];
+
   return (
     <div className="App">
       <Header />
       <div className="content-App">
-        {countries.map((item) => (
+        {secciones.map((item) => (
           <Carrusel
-            key={item.id}
+            key={`${item.tipo}-${item.id}`}
             imagenes={item.imagenes}
             tituloSeccion={item.titulo}
             parrafoSeccion={item.parrafo}
