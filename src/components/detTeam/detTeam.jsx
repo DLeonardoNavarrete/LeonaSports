@@ -1,12 +1,10 @@
 import { useParams } from 'react-router-dom';
-import { detCountries } from '../../dataInfo/data';
+import { getLeagueBySlug, getTeamBySlug } from '../../dataInfo/data';
 import Carrusel from '../carrusel/carrusel';
 
 function DetTeam() {
   const { id } = useParams();
-  const contenido = detCountries.find(
-    (seccion) => String(seccion.id) === String(id)
-  );
+  const contenido = getTeamBySlug(id) || getLeagueBySlug(id);
 
   if (!contenido) {
     return (
@@ -23,7 +21,7 @@ function DetTeam() {
         imagenes={contenido.imagenes}
         tituloSeccion={contenido.titulo}
         parrafoSeccion={contenido.parrafo}
-        idSeccion={contenido.id}
+        idSeccion={contenido.slug}
       />
     </div>
   );
