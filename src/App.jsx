@@ -1,14 +1,12 @@
-// Componentes
+import { Route, Routes } from 'react-router-dom';
+
 import Header from './components/header/Header';
 import Carrusel from './components/carrusel/carrusel';
-
-// DataInfo
+import DetTeam from './components/detTeam/detTeam';
 import { homeSections } from './dataInfo/data';
-
-// Estilos
 import './diseño/App.css';
 
-function App() {
+function Home() {
   return (
     <div className="App">
       <Header />
@@ -24,6 +22,16 @@ function App() {
         ))}
       </div>
     </div>
+  );
+}
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/selecciones/:slug" element={<DetTeam />} />
+      <Route path="/ligas/:slug" element={<DetTeam />} />
+    </Routes>
   );
 }
 
