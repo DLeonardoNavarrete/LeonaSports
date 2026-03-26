@@ -161,7 +161,7 @@ export const teams = [
     categoria: 'selecciones',
     pais: 'colombia',
     titulo: 'Seleccion Colombia',
-    parrafo: 'Coleccion completa de la seleccion Colombia para 2026',
+    parrafo: 'Colección completa de la Selección Colombia para 2026',
     imagenes: countries[0].imagenes,
     relacionados: ['liga-colombia'],
   },
@@ -170,7 +170,7 @@ export const teams = [
     slug: 'alemania',
     categoria: 'selecciones',
     pais: 'alemania',
-    titulo: 'Seleccion Alemania',
+    titulo: 'Selección Alemania',
     parrafo: 'Camiseta local 2026 y futuros detalles de la seleccion alemana',
     imagenes: [
       createImageItem(
@@ -186,7 +186,7 @@ export const teams = [
     slug: 'argentina',
     categoria: 'selecciones',
     pais: 'argentina',
-    titulo: 'Seleccion Argentina',
+    titulo: 'Selección Argentina',
     parrafo: 'Camiseta local 2026 y futuros detalles de la seleccion argentina',
     imagenes: [
       createImageItem(
@@ -202,7 +202,7 @@ export const teams = [
     slug: 'brasil',
     categoria: 'selecciones',
     pais: 'brasil',
-    titulo: 'Seleccion Brasil',
+    titulo: 'Selección Brasil',
     parrafo: 'Camiseta local 2026 y futuros detalles de la seleccion brasilena',
     imagenes: [
       createImageItem(
@@ -218,7 +218,7 @@ export const teams = [
     slug: 'espana',
     categoria: 'selecciones',
     pais: 'espana',
-    titulo: 'Seleccion Espana',
+    titulo: 'Selección Espana',
     parrafo: 'Camiseta local 2026 y futuros detalles de la seleccion espanola',
     imagenes: [
       createImageItem(
@@ -234,7 +234,7 @@ export const teams = [
     slug: 'francia',
     categoria: 'selecciones',
     pais: 'francia',
-    titulo: 'Seleccion Francia',
+    titulo: 'Selección Francia',
     parrafo: 'Camiseta local 2026 y futuros detalles de la seleccion francesa',
     imagenes: [
       createImageItem(
@@ -250,7 +250,7 @@ export const teams = [
     slug: 'inglaterra',
     categoria: 'selecciones',
     pais: 'inglaterra',
-    titulo: 'Seleccion Inglaterra',
+    titulo: 'Selección Inglaterra',
     parrafo: 'Camiseta local 2026 y futuros detalles de la seleccion inglesa',
     imagenes: [
       createImageItem(
@@ -266,7 +266,7 @@ export const teams = [
     slug: 'italia',
     categoria: 'selecciones',
     pais: 'italia',
-    titulo: 'Seleccion Italia',
+    titulo: 'Selección Italia',
     parrafo: 'Camiseta local 2026 y futuros detalles de la seleccion italiana',
     imagenes: [
       createImageItem(
@@ -282,7 +282,7 @@ export const teams = [
     slug: 'japon',
     categoria: 'selecciones',
     pais: 'japon',
-    titulo: 'Seleccion Japon',
+    titulo: 'Selección Japón',
     parrafo: 'Camiseta local 2026 y futuros detalles de la seleccion japonesa',
     imagenes: [
       createImageItem(
@@ -298,7 +298,7 @@ export const teams = [
     slug: 'mexico',
     categoria: 'selecciones',
     pais: 'mexico',
-    titulo: 'Seleccion Mexico',
+    titulo: 'Selección México',
     parrafo: 'Camiseta local 2026 y futuros detalles de la seleccion mexicana',
     imagenes: [
       createImageItem(
@@ -314,7 +314,7 @@ export const teams = [
     slug: 'portugal',
     categoria: 'selecciones',
     pais: 'portugal',
-    titulo: 'Seleccion Portugal',
+    titulo: 'Selección Portugal',
     parrafo: 'Camiseta local 2026 y futuros detalles de la seleccion portuguesa',
     imagenes: [
       createImageItem(
@@ -333,7 +333,7 @@ export const leagues = [
     slug: 'inglaterra',
     categoria: 'ligas',
     pais: 'inglaterra',
-    titulo: 'Liga de Inglaterra',
+    titulo: 'Liga Inglesa',
     parrafo: 'Clubes destacados de Inglaterra y futuros detalles de la Premier League',
     imagenes: [
       createImageItem(
@@ -353,7 +353,7 @@ export const leagues = [
     slug: 'espana',
     categoria: 'ligas',
     pais: 'espana',
-    titulo: 'Liga de Espana',
+    titulo: 'Liga Española',
     parrafo: 'Clubes destacados de Espana y futuros detalles de LaLiga',
     imagenes: [
       createImageItem(
@@ -373,7 +373,7 @@ export const leagues = [
     slug: 'alemania',
     categoria: 'ligas',
     pais: 'alemania',
-    titulo: 'Liga de Alemania',
+    titulo: 'Liga Alemana',
     parrafo: 'Clubes destacados de Alemania y futuros detalles de la Bundesliga',
     imagenes: [
       createImageItem(
@@ -388,7 +388,7 @@ export const leagues = [
     slug: 'italia',
     categoria: 'ligas',
     pais: 'italia',
-    titulo: 'Liga de Italia',
+    titulo: 'Liga Italiana',
     parrafo: 'Clubes destacados de Italia y futuros detalles de la Serie A',
     imagenes: [
       createImageItem(
@@ -400,11 +400,109 @@ export const leagues = [
   },
 ];
 
+export const clubs = [
+  {
+    id: 'club-arsenal',
+    slug: 'arsenal',
+    countrySlug: 'inglaterra',
+    categoria: 'clubes',
+    titulo: 'Arsenal',
+    parrafo: 'Camiseta local 2026 y futuros detalles del Arsenal.',
+    imagenes: [
+      createImageItem(
+        '/images/contenidos/clubes/arsenal-2026-local.jpg',
+        'arsenal-local',
+        '/ligas/inglaterra/arsenal'
+      ),
+    ],
+  },
+  {
+    id: 'club-manchester-city',
+    slug: 'manchester-city',
+    countrySlug: 'inglaterra',
+    categoria: 'clubes',
+    titulo: 'Manchester City',
+    parrafo: 'Camiseta local 2026 y futuros detalles del Manchester City.',
+    imagenes: [
+      createImageItem(
+        '/images/contenidos/clubes/mancity-2026-local.jpg',
+        'manchester-city-local',
+        '/ligas/inglaterra/manchester-city'
+      ),
+    ],
+  },
+  {
+    id: 'club-barcelona',
+    slug: 'barcelona',
+    countrySlug: 'espana',
+    categoria: 'clubes',
+    titulo: 'Barcelona',
+    parrafo: 'Camiseta local 2026 y futuros detalles del Barcelona.',
+    imagenes: [
+      createImageItem(
+        '/images/contenidos/clubes/barcelona-2026-local.jpg',
+        'barcelona-local',
+        '/ligas/espana/barcelona'
+      ),
+    ],
+  },
+  {
+    id: 'club-real-madrid',
+    slug: 'real-madrid',
+    countrySlug: 'espana',
+    categoria: 'clubes',
+    titulo: 'Real Madrid',
+    parrafo: 'Camiseta local 2026 y futuros detalles del Real Madrid.',
+    imagenes: [
+      createImageItem(
+        '/images/contenidos/clubes/realmadrid-2026-local.jpg',
+        'real-madrid-local',
+        '/ligas/espana/real-madrid'
+      ),
+    ],
+  },
+  {
+    id: 'club-dortmund',
+    slug: 'dortmund',
+    countrySlug: 'alemania',
+    categoria: 'clubes',
+    titulo: 'Borussia Dortmund',
+    parrafo: 'Camiseta local 2025 y futuros detalles del Dortmund.',
+    imagenes: [
+      createImageItem(
+        '/images/contenidos/clubes/dormunt-2025-local.jpg',
+        'dortmund-local',
+        '/ligas/alemania/dortmund'
+      ),
+    ],
+  },
+  {
+    id: 'club-inter-milan',
+    slug: 'inter-milan',
+    countrySlug: 'italia',
+    categoria: 'clubes',
+    titulo: 'Inter Milan',
+    parrafo: 'Camiseta local 2026 y futuros detalles del Inter Milan.',
+    imagenes: [
+      createImageItem(
+        '/images/contenidos/clubes/intermilan-2026-local.jpg',
+        'inter-milan-local',
+        '/ligas/italia/inter-milan'
+      ),
+    ],
+  },
+];
+
 export const getTeamBySlug = (slug) =>
   teams.find((team) => team.slug === slug);
 
 export const getLeagueBySlug = (slug) =>
   leagues.find((league) => league.slug === slug);
+
+export const getClubBySlugs = (countrySlug, clubSlug) =>
+  clubs.find(
+    (club) => club.countrySlug === countrySlug && club.slug === clubSlug
+  );
 
 export const getHomeSectionBySlug = (slug) =>
   homeSections.find((section) => section.slug === slug);
