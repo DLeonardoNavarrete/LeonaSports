@@ -2,7 +2,9 @@ import { Route, Routes } from 'react-router-dom';
 
 import Header from './components/header/Header';
 import Carrusel from './components/carrusel/carrusel';
+import DetClub from './components/detClub/detClub';
 import DetTeam from './components/detTeam/detTeam';
+import NotFound from './components/notFound/NotFound';
 import { homeSections } from './dataInfo/data';
 import './diseño/App.css';
 
@@ -31,6 +33,8 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/selecciones/:slug" element={<DetTeam />} />
       <Route path="/ligas/:slug" element={<DetTeam />} />
+      <Route path="/ligas/:countrySlug/:clubSlug" element={<DetClub />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 }
