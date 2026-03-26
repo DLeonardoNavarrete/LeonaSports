@@ -4,10 +4,10 @@ export const countries = [
     titulo: 'Seleccion Colombia',
     parrafo: 'Camiseta para hombre y mujer del mundial 2026',
     imagenes: [
-      { src: '/images/contenidos/colombia/colombia-2026-detalles.jpeg' },
-      { src: '/images/contenidos/colombia/colombia-2026-hombre&mujer.jpeg' },
-      { src: '/images/contenidos/colombia/colombia-2026-estampada.jpeg'},
-      { src: '/images/contenidos/colombia/colombia-2026-concaja.jpeg'}
+      { src: '/images/contenidos/colombia/colombia-2026-detalles.jpeg', },
+      { src: '/images/contenidos/colombia/colombia-2026-hombre&mujer.jpeg', },
+      { src: '/images/contenidos/colombia/colombia-2026-estampada.jpeg', },
+      { src: '/images/contenidos/colombia/colombia-2026-concaja.jpeg', }
     ],
   },
   {
