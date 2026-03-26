@@ -23,8 +23,16 @@
 
 .content-App {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
   padding: 32px;
-  align-items: start;
+  align-items: center;
+  justify-content: center; 
+}
+
+@media (max-width: 1px) {
+  .content-App {
+    grid-template-columns: 1fr;
+    padding: 16px;
+  }
 }
