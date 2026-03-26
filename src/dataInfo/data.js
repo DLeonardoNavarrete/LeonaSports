@@ -33,8 +33,15 @@ export const detCountries = [
   {
     id: 1,
     titulo: 'Ligas de Europa',
-    parrafo: 'Detalle de las ligas',
-    imagenes: [{ src: '/images/logo.png', link: '/' }],
+    parrafo: 'Premier League - LaLiga - Bundesliga - Serie A - League One',
+    imagenes: [
+      { src: '/images/contenidos/clubes/arsenal-2026-local.jpg', },
+      { src:' /images/contenidos/clubes/barcelona-2026-local.jpg', },
+      { src:' /images/contenidos/clubes/dormunt-2025-local.jpg', },
+      { src:' /images/contenidos/clubes/intermilan-2026-local.jpg', },
+      { src:' /images/contenidos/clubes/mancity-2026-local.jpg', },
+      { src:' /images/contenidos/clubes/realmadrid-2026-local.jpg', },
+    ],
   },
   {
     id: 2,
