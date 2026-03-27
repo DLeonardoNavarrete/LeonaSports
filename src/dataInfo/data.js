@@ -11,7 +11,7 @@ export const countries = [
     slug: 'colombia',
     categoria: 'selecciones',
     titulo: 'Seleccion Colombia',
-    parrafo: 'Camiseta para hombre y mujer del mundial 2026',
+    parrafo: 'Camiseta para Dama y Caballero',
     imagenes: [
       createImageItem(
         '/images/contenidos/colombia/colombia-2026-detalles.jpeg',
