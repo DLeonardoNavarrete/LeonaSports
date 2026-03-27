@@ -13,26 +13,38 @@ export const countries = [
     titulo: 'Seleccion Colombia',
     parrafo: 'Camiseta para Dama y Caballero',
     imagenes: [
-      createImageItem(
-        '/images/contenidos/colombia/colombia-2026-detalles.jpeg',
-        'colombia-detalles',
-        '/selecciones/colombia'
-      ),
-      createImageItem(
-        '/images/contenidos/colombia/colombia-2026-hombre&mujer.jpeg',
-        'colombia-home-away',
-        '/selecciones/colombia'
-      ),
-      createImageItem(
-        '/images/contenidos/colombia/colombia-2026-estampada.jpeg',
-        'colombia-estampada',
-        '/selecciones/colombia'
-      ),
-      createImageItem(
-        '/images/contenidos/colombia/colombia-2026-concaja.jpeg',
-        'colombia-con-caja',
-        '/selecciones/colombia'
-      ),
+      createImageItem('/images/contenidos/colombia/colombia-2026-detalles.jpeg', 'colombia-detalles', '/selecciones/colombia', {
+        alt: 'Detalles de la camiseta de Colombia 2026',
+        overlayTag: 'Seleccion Colombia',
+        overlayTitulo: 'Vista detallada',
+        kicker: 'Edicion 2026',
+        tituloImagen: 'Detalles y acabados',
+        detalleImagen: 'Observa las costuras, el patron y los elementos graficos de la camiseta.',
+      }),
+      createImageItem('/images/contenidos/colombia/colombia-2026-hombre&mujer.jpeg', 'colombia-home-away', '/selecciones/colombia', {
+        alt: 'Version para dama y caballero de Colombia 2026',
+        overlayTag: 'Seleccion Colombia',
+        overlayTitulo: 'Version principal',
+        kicker: 'Catalogo',
+        tituloImagen: 'Dama y caballero',
+        detalleImagen: '1ra equipacion en Dama👸🏼 y Caballero🤴🏽.',
+      }),
+      createImageItem('/images/contenidos/colombia/colombia-2026-estampada.jpeg', 'colombia-estampada', '/selecciones/colombia', {
+        alt: 'Camiseta de Colombia 2026 estampada',
+        overlayTag: 'Seleccion Colombia',
+        overlayTitulo: 'Personalizaciones',
+        kicker: 'Nombre y numero',
+        tituloImagen: 'Estampados',
+        detalleImagen: 'Personaliza lo que te apasiona.',
+      }),
+      createImageItem('/images/contenidos/colombia/colombia-2026-concaja.jpeg', 'colombia-con-caja', '/selecciones/colombia', {
+        alt: 'Camiseta de Colombia 2026 con caja',
+        overlayTag: 'Seleccion Colombia',
+        overlayTitulo: 'Presentacion premium',
+        kicker: 'Detalle agregado',
+        tituloImagen: 'Empaque con caja',
+        detalleImagen: '',            // Por editar 
+      }),
     ],
   },
   {
@@ -42,56 +54,86 @@ export const countries = [
     titulo: 'Selecciones',
     parrafo: 'Selecciones mundialistas',
     imagenes: [
-      createImageItem(
-        '/images/contenidos/selecciones/alemania-2026-local.jpg',
-        'alemania',
-        '/selecciones/alemania'
-      ),
-      createImageItem(
-        '/images/contenidos/selecciones/argentina-2026-local.jpg',
-        'argentina',
-        '/selecciones/argentina'
-      ),
-      createImageItem(
-        '/images/contenidos/selecciones/brasil-2026-local.jpg',
-        'brasil',
-        '/selecciones/brasil'
-      ),
-      createImageItem(
-        '/images/contenidos/selecciones/españa-2026-local.jpg',
-        'espana',
-        '/selecciones/espana'
-      ),
-      createImageItem(
-        '/images/contenidos/selecciones/francia-2026-local.jpg',
-        'francia',
-        '/selecciones/francia'
-      ),
-      createImageItem(
-        '/images/contenidos/selecciones/inglaterra-2026-local.jpg',
-        'inglaterra',
-        '/selecciones/inglaterra'
-      ),
-      createImageItem(
-        '/images/contenidos/selecciones/italia-2026-local.jpg',
-        'italia',
-        '/selecciones/italia'
-      ),
-      createImageItem(
-        '/images/contenidos/selecciones/japon-2026-local.jpg',
-        'japon',
-        '/selecciones/japon'
-      ),
-      createImageItem(
-        '/images/contenidos/selecciones/mexico-2026-local.jpg',
-        'mexico',
-        '/selecciones/mexico'
-      ),
-      createImageItem(
-        '/images/contenidos/selecciones/portugal-2026-local.jpg',
-        'portugal',
-        '/selecciones/portugal'
-      ),
+      createImageItem('/images/contenidos/selecciones/alemania-2026-local.jpg', 'alemania', '/selecciones/alemania', {
+        alt: 'Camiseta local de Alemania 2026',
+        overlayTag: 'Seleccion',
+        overlayTitulo: 'Alemania 2026',
+        kicker: 'Local',
+        tituloImagen: 'Seleccion Alemania',
+        detalleImagen: 'Equipacion principal para este año.',
+      }),
+      createImageItem('/images/contenidos/selecciones/argentina-2026-local.jpg', 'argentina', '/selecciones/argentina', {
+        alt: 'Camiseta local de Argentina 2026',
+        overlayTag: 'Seleccion',
+        overlayTitulo: 'Argentina 2026',
+        kicker: 'Local',
+        tituloImagen: 'Seleccion Argentina',
+        detalleImagen: 'Equipacion principal para este año.',
+      }),
+      createImageItem('/images/contenidos/selecciones/brasil-2026-local.jpg', 'brasil', '/selecciones/brasil', {
+        alt: 'Camiseta local de Brasil 2026',
+        overlayTag: 'Seleccion',
+        overlayTitulo: 'Brasil 2026',
+        kicker: 'Local',
+        tituloImagen: 'Seleccion Brasil',
+        detalleImagen: 'Equipacion principal de la Canarinha para este año.',
+      }),
+      createImageItem('/images/contenidos/selecciones/españa-2026-local.jpg', 'espana', '/selecciones/espana', {
+        alt: 'Camiseta local de Espana 2026',
+        overlayTag: 'Seleccion',
+        overlayTitulo: 'Espana 2026',
+        kicker: 'Local',
+        tituloImagen: 'Seleccion Espana',
+        detalleImagen: 'Equipacion principal para este año',
+      }),
+      createImageItem('/images/contenidos/selecciones/francia-2026-local.jpg', 'francia', '/selecciones/francia', {
+        alt: 'Camiseta local de Francia 2026',
+        overlayTag: 'Seleccion',
+        overlayTitulo: 'Francia 2026',
+        kicker: 'Local',
+        tituloImagen: 'Seleccion Francia',
+        detalleImagen: 'Equipacion principal para este año',
+      }),
+      createImageItem('/images/contenidos/selecciones/inglaterra-2026-local.jpg', 'inglaterra', '/selecciones/inglaterra', {
+        alt: 'Camiseta local de Inglaterra 2026',
+        overlayTag: 'Seleccion',
+        overlayTitulo: 'Inglaterra 2026',
+        kicker: 'Local',
+        tituloImagen: 'Seleccion Inglaterra',
+        detalleImagen: 'Equipacion principal para este año',
+      }),
+      createImageItem('/images/contenidos/selecciones/italia-2026-local.jpg', 'italia', '/selecciones/italia', {
+        alt: 'Camiseta local de Italia 2026',
+        overlayTag: 'Seleccion',
+        overlayTitulo: 'Italia 2026',
+        kicker: 'Local',
+        tituloImagen: 'Seleccion Italia',
+        detalleImagen: 'Equipacion principal para este año',
+      }),
+      createImageItem('/images/contenidos/selecciones/japon-2026-local.jpg', 'japon', '/selecciones/japon', {
+        alt: 'Camiseta local de Japon 2026',
+        overlayTag: 'Seleccion',
+        overlayTitulo: 'Japon 2026',
+        kicker: 'Local',
+        tituloImagen: 'Seleccion Japon',
+        detalleImagen: 'Equipacion principal para este año',
+      }),
+      createImageItem('/images/contenidos/selecciones/mexico-2026-local.jpg', 'mexico', '/selecciones/mexico', {
+        alt: 'Camiseta local de Mexico 2026',
+        overlayTag: 'Seleccion',
+        overlayTitulo: 'Mexico 2026',
+        kicker: 'Local',
+        tituloImagen: 'Seleccion Mexico',
+        detalleImagen: 'Equipacion principal para este año',
+      }),
+      createImageItem('/images/contenidos/selecciones/portugal-2026-local.jpg', 'portugal', '/selecciones/portugal', {
+        alt: 'Camiseta local de Portugal 2026',
+        overlayTag: 'Seleccion',
+        overlayTitulo: 'Portugal 2026',
+        kicker: 'Local',
+        tituloImagen: 'Seleccion Portugal',
+        detalleImagen: 'Equipacion principal para este año',
+      }),
     ],
   },
 ];
@@ -104,36 +146,54 @@ export const detCountries = [
     titulo: 'Ligas de Europa',
     parrafo: 'Premier League - LaLiga - Bundesliga - Serie A - Ligue 1',
     imagenes: [
-      createImageItem(
-        '/images/contenidos/clubes/arsenal-2026-local.jpg',
-        'arsenal',
-        '/ligas/inglaterra/arsenal'
-      ),
-      createImageItem(
-        '/images/contenidos/clubes/barcelona-2026-local.jpg',
-        'barcelona',
-        '/ligas/espana/barcelona'
-      ),
-      createImageItem(
-        '/images/contenidos/clubes/dormunt-2025-local.jpg',
-        'dortmund',
-        '/ligas/alemania/dortmund'
-      ),
-      createImageItem(
-        '/images/contenidos/clubes/intermilan-2026-local.jpg',
-        'inter-milan',
-        '/ligas/italia/inter-milan'
-      ),
-      createImageItem(
-        '/images/contenidos/clubes/mancity-2026-local.jpg',
-        'manchester-city',
-        '/ligas/inglaterra/manchester-city'
-      ),
-      createImageItem(
-        '/images/contenidos/clubes/realmadrid-2026-local.jpg',
-        'real-madrid',
-        '/ligas/espana/real-madrid'
-      ),
+      createImageItem('/images/contenidos/clubes/arsenal-2026-local.jpg', 'arsenal', '/ligas/inglaterra/arsenal', {
+        alt: 'Camiseta local del Arsenal 2026',
+        overlayTag: 'Club',
+        overlayTitulo: 'Arsenal 2026',
+        kicker: 'Premier League',
+        tituloImagen: 'Arsenal local',
+        detalleImagen: 'Diseño principal de la temporada actual.',
+      }),
+      createImageItem('/images/contenidos/clubes/barcelona-2026-local.jpg', 'barcelona', '/ligas/espana/barcelona', {
+        alt: 'Camiseta local del Barcelona 2026',
+        overlayTag: 'Club',
+        overlayTitulo: 'Barcelona 2026',
+        kicker: 'LaLiga',
+        tituloImagen: 'Barcelona local',
+        detalleImagen: 'Diseno principal del Barca en esta temporada.',
+      }),
+      createImageItem('/images/contenidos/clubes/dormunt-2025-local.jpg', 'dortmund', '/ligas/alemania/dortmund', {
+        alt: 'Camiseta local del Dortmund 2025',
+        overlayTag: 'Club',
+        overlayTitulo: 'Dortmund 2025',
+        kicker: 'Bundesliga',
+        tituloImagen: 'Borussia Dortmund local',
+        detalleImagen: 'Diseño principal de la temporada pasada.',
+      }),
+      createImageItem('/images/contenidos/clubes/intermilan-2026-local.jpg', 'inter-milan', '/ligas/italia/inter-milan', {
+        alt: 'Camiseta local del Inter Milan 2026',
+        overlayTag: 'Club',
+        overlayTitulo: 'Inter Milan 2026',
+        kicker: 'Serie A',
+        tituloImagen: 'Inter Milan local',
+        detalleImagen: 'Diseño principal en la temporada actual.',
+      }),
+      createImageItem('/images/contenidos/clubes/mancity-2026-local.jpg', 'manchester-city', '/ligas/inglaterra/manchester-city', {
+        alt: 'Camiseta local del Manchester City 2026',
+        overlayTag: 'Club',
+        overlayTitulo: 'Manchester City 2026',
+        kicker: 'Premier League',
+        tituloImagen: 'Manchester City local',
+        detalleImagen: 'Diseño principal en la temporada actual.',
+      }),
+      createImageItem('/images/contenidos/clubes/realmadrid-2026-local.jpg', 'real-madrid', '/ligas/espana/real-madrid', {
+        alt: 'Camiseta local del Real Madrid 2026',
+        overlayTag: 'Club',
+        overlayTitulo: 'Real Madrid 2026',
+        kicker: 'LaLiga',
+        tituloImagen: 'Real Madrid local',
+        detalleImagen: 'Diseño principal en la temporada actual.',
+      }),
     ],
   },
   {
@@ -143,11 +203,14 @@ export const detCountries = [
     titulo: 'Ligas de Sudamerica',
     parrafo: 'Camisetas y referencias de los clubes sudamericanos',
     imagenes: [
-      createImageItem(
-        '/images/logo.png',
-        'ligas-sudamerica',
-        '/ligas/sudamerica'
-      ),
+      createImageItem('/images/logo.png', 'ligas-sudamerica', '/ligas/sudamerica', {
+        alt: 'Proxima seccion de ligas sudamericanas',
+        overlayTag: 'Proximamente',
+        overlayTitulo: 'Ligas de Sudamerica',
+        kicker: 'Expansion',
+        tituloImagen: 'Catalogo en construccion',
+        detalleImagen: 'Esta seccion esta lista para recibir tus futuros clubes y camisetas.',
+      }),
     ],
   },
 ];
@@ -161,7 +224,7 @@ export const teams = [
     categoria: 'selecciones',
     pais: 'colombia',
     titulo: 'Seleccion Colombia',
-    parrafo: 'Colección completa de la Selección Colombia para 2026',
+    parrafo: 'Coleccion completa de la Seleccion Colombia para 2026',
     imagenes: countries[0].imagenes,
     relacionados: ['liga-colombia'],
   },
@@ -170,15 +233,9 @@ export const teams = [
     slug: 'alemania',
     categoria: 'selecciones',
     pais: 'alemania',
-    titulo: 'Selección Alemania',
+    titulo: 'Seleccion Alemania',
     parrafo: 'Camiseta local 2026 y futuros detalles de la seleccion alemana',
-    imagenes: [
-      createImageItem(
-        '/images/contenidos/selecciones/alemania-2026-local.jpg',
-        'alemania-local',
-        '/selecciones/alemania'
-      ),
-    ],
+    imagenes: [countries[1].imagenes[0]],
     relacionados: ['liga-alemania'],
   },
   {
@@ -186,15 +243,9 @@ export const teams = [
     slug: 'argentina',
     categoria: 'selecciones',
     pais: 'argentina',
-    titulo: 'Selección Argentina',
+    titulo: 'Seleccion Argentina',
     parrafo: 'Camiseta local 2026 y futuros detalles de la seleccion argentina',
-    imagenes: [
-      createImageItem(
-        '/images/contenidos/selecciones/argentina-2026-local.jpg',
-        'argentina-local',
-        '/selecciones/argentina'
-      ),
-    ],
+    imagenes: [countries[1].imagenes[1]],
     relacionados: ['liga-argentina'],
   },
   {
@@ -202,15 +253,9 @@ export const teams = [
     slug: 'brasil',
     categoria: 'selecciones',
     pais: 'brasil',
-    titulo: 'Selección Brasil',
+    titulo: 'Seleccion Brasil',
     parrafo: 'Camiseta local 2026 y futuros detalles de la seleccion brasilena',
-    imagenes: [
-      createImageItem(
-        '/images/contenidos/selecciones/brasil-2026-local.jpg',
-        'brasil-local',
-        '/selecciones/brasil'
-      ),
-    ],
+    imagenes: [countries[1].imagenes[2]],
     relacionados: ['liga-brasil'],
   },
   {
@@ -218,15 +263,9 @@ export const teams = [
     slug: 'espana',
     categoria: 'selecciones',
     pais: 'espana',
-    titulo: 'Selección Espana',
+    titulo: 'Seleccion Espana',
     parrafo: 'Camiseta local 2026 y futuros detalles de la seleccion espanola',
-    imagenes: [
-      createImageItem(
-        '/images/contenidos/selecciones/españa-2026-local.jpg',
-        'espana-local',
-        '/selecciones/espana'
-      ),
-    ],
+    imagenes: [countries[1].imagenes[3]],
     relacionados: ['liga-espana'],
   },
   {
@@ -234,15 +273,9 @@ export const teams = [
     slug: 'francia',
     categoria: 'selecciones',
     pais: 'francia',
-    titulo: 'Selección Francia',
+    titulo: 'Seleccion Francia',
     parrafo: 'Camiseta local 2026 y futuros detalles de la seleccion francesa',
-    imagenes: [
-      createImageItem(
-        '/images/contenidos/selecciones/francia-2026-local.jpg',
-        'francia-local',
-        '/selecciones/francia'
-      ),
-    ],
+    imagenes: [countries[1].imagenes[4]],
     relacionados: ['liga-francia'],
   },
   {
@@ -250,15 +283,9 @@ export const teams = [
     slug: 'inglaterra',
     categoria: 'selecciones',
     pais: 'inglaterra',
-    titulo: 'Selección Inglaterra',
+    titulo: 'Seleccion Inglaterra',
     parrafo: 'Camiseta local 2026 y futuros detalles de la seleccion inglesa',
-    imagenes: [
-      createImageItem(
-        '/images/contenidos/selecciones/inglaterra-2026-local.jpg',
-        'inglaterra-local',
-        '/selecciones/inglaterra'
-      ),
-    ],
+    imagenes: [countries[1].imagenes[5]],
     relacionados: ['liga-inglaterra'],
   },
   {
@@ -266,15 +293,9 @@ export const teams = [
     slug: 'italia',
     categoria: 'selecciones',
     pais: 'italia',
-    titulo: 'Selección Italia',
+    titulo: 'Seleccion Italia',
     parrafo: 'Camiseta local 2026 y futuros detalles de la seleccion italiana',
-    imagenes: [
-      createImageItem(
-        '/images/contenidos/selecciones/italia-2026-local.jpg',
-        'italia-local',
-        '/selecciones/italia'
-      ),
-    ],
+    imagenes: [countries[1].imagenes[6]],
     relacionados: ['liga-italia'],
   },
   {
@@ -282,15 +303,9 @@ export const teams = [
     slug: 'japon',
     categoria: 'selecciones',
     pais: 'japon',
-    titulo: 'Selección Japón',
+    titulo: 'Seleccion Japon',
     parrafo: 'Camiseta local 2026 y futuros detalles de la seleccion japonesa',
-    imagenes: [
-      createImageItem(
-        '/images/contenidos/selecciones/japon-2026-local.jpg',
-        'japon-local',
-        '/selecciones/japon'
-      ),
-    ],
+    imagenes: [countries[1].imagenes[7]],
     relacionados: ['liga-japon'],
   },
   {
@@ -298,15 +313,9 @@ export const teams = [
     slug: 'mexico',
     categoria: 'selecciones',
     pais: 'mexico',
-    titulo: 'Selección México',
+    titulo: 'Seleccion Mexico',
     parrafo: 'Camiseta local 2026 y futuros detalles de la seleccion mexicana',
-    imagenes: [
-      createImageItem(
-        '/images/contenidos/selecciones/mexico-2026-local.jpg',
-        'mexico-local',
-        '/selecciones/mexico'
-      ),
-    ],
+    imagenes: [countries[1].imagenes[8]],
     relacionados: ['liga-mexico'],
   },
   {
@@ -314,15 +323,9 @@ export const teams = [
     slug: 'portugal',
     categoria: 'selecciones',
     pais: 'portugal',
-    titulo: 'Selección Portugal',
+    titulo: 'Seleccion Portugal',
     parrafo: 'Camiseta local 2026 y futuros detalles de la seleccion portuguesa',
-    imagenes: [
-      createImageItem(
-        '/images/contenidos/selecciones/portugal-2026-local.jpg',
-        'portugal-local',
-        '/selecciones/portugal'
-      ),
-    ],
+    imagenes: [countries[1].imagenes[9]],
     relacionados: ['liga-portugal'],
   },
 ];
@@ -335,38 +338,16 @@ export const leagues = [
     pais: 'inglaterra',
     titulo: 'Liga Inglesa',
     parrafo: 'Clubes destacados de Inglaterra y futuros detalles de la Premier League',
-    imagenes: [
-      createImageItem(
-        '/images/contenidos/clubes/arsenal-2026-local.jpg',
-        'arsenal',
-        '/ligas/inglaterra/arsenal'
-      ),
-      createImageItem(
-        '/images/contenidos/clubes/mancity-2026-local.jpg',
-        'manchester-city',
-        '/ligas/inglaterra/manchester-city'
-      ),
-    ],
+    imagenes: [detCountries[0].imagenes[0], detCountries[0].imagenes[4]],
   },
   {
     id: 'liga-espana',
     slug: 'espana',
     categoria: 'ligas',
     pais: 'espana',
-    titulo: 'Liga Española',
+    titulo: 'Liga Espanola',
     parrafo: 'Clubes destacados de Espana y futuros detalles de LaLiga',
-    imagenes: [
-      createImageItem(
-        '/images/contenidos/clubes/barcelona-2026-local.jpg',
-        'barcelona',
-        '/ligas/espana/barcelona'
-      ),
-      createImageItem(
-        '/images/contenidos/clubes/realmadrid-2026-local.jpg',
-        'real-madrid',
-        '/ligas/espana/real-madrid'
-      ),
-    ],
+    imagenes: [detCountries[0].imagenes[1], detCountries[0].imagenes[5]],
   },
   {
     id: 'liga-alemania',
@@ -375,13 +356,7 @@ export const leagues = [
     pais: 'alemania',
     titulo: 'Liga Alemana',
     parrafo: 'Clubes destacados de Alemania y futuros detalles de la Bundesliga',
-    imagenes: [
-      createImageItem(
-        '/images/contenidos/clubes/dormunt-2025-local.jpg',
-        'dortmund',
-        '/ligas/alemania/dortmund'
-      ),
-    ],
+    imagenes: [detCountries[0].imagenes[2]],
   },
   {
     id: 'liga-italia',
@@ -390,13 +365,7 @@ export const leagues = [
     pais: 'italia',
     titulo: 'Liga Italiana',
     parrafo: 'Clubes destacados de Italia y futuros detalles de la Serie A',
-    imagenes: [
-      createImageItem(
-        '/images/contenidos/clubes/intermilan-2026-local.jpg',
-        'inter-milan',
-        '/ligas/italia/inter-milan'
-      ),
-    ],
+    imagenes: [detCountries[0].imagenes[3]],
   },
 ];
 
@@ -408,13 +377,7 @@ export const clubs = [
     categoria: 'clubes',
     titulo: 'Arsenal',
     parrafo: 'Camiseta local 2026 y futuros detalles del Arsenal.',
-    imagenes: [
-      createImageItem(
-        '/images/contenidos/clubes/arsenal-2026-local.jpg',
-        'arsenal-local',
-        '/ligas/inglaterra/arsenal'
-      ),
-    ],
+    imagenes: [detCountries[0].imagenes[0]],
   },
   {
     id: 'club-manchester-city',
@@ -423,13 +386,7 @@ export const clubs = [
     categoria: 'clubes',
     titulo: 'Manchester City',
     parrafo: 'Camiseta local 2026 y futuros detalles del Manchester City.',
-    imagenes: [
-      createImageItem(
-        '/images/contenidos/clubes/mancity-2026-local.jpg',
-        'manchester-city-local',
-        '/ligas/inglaterra/manchester-city'
-      ),
-    ],
+    imagenes: [detCountries[0].imagenes[4]],
   },
   {
     id: 'club-barcelona',
@@ -438,13 +395,7 @@ export const clubs = [
     categoria: 'clubes',
     titulo: 'Barcelona',
     parrafo: 'Camiseta local 2026 y futuros detalles del Barcelona.',
-    imagenes: [
-      createImageItem(
-        '/images/contenidos/clubes/barcelona-2026-local.jpg',
-        'barcelona-local',
-        '/ligas/espana/barcelona'
-      ),
-    ],
+    imagenes: [detCountries[0].imagenes[1]],
   },
   {
     id: 'club-real-madrid',
@@ -453,13 +404,7 @@ export const clubs = [
     categoria: 'clubes',
     titulo: 'Real Madrid',
     parrafo: 'Camiseta local 2026 y futuros detalles del Real Madrid.',
-    imagenes: [
-      createImageItem(
-        '/images/contenidos/clubes/realmadrid-2026-local.jpg',
-        'real-madrid-local',
-        '/ligas/espana/real-madrid'
-      ),
-    ],
+    imagenes: [detCountries[0].imagenes[5]],
   },
   {
     id: 'club-dortmund',
@@ -468,13 +413,7 @@ export const clubs = [
     categoria: 'clubes',
     titulo: 'Borussia Dortmund',
     parrafo: 'Camiseta local 2025 y futuros detalles del Dortmund.',
-    imagenes: [
-      createImageItem(
-        '/images/contenidos/clubes/dormunt-2025-local.jpg',
-        'dortmund-local',
-        '/ligas/alemania/dortmund'
-      ),
-    ],
+    imagenes: [detCountries[0].imagenes[2]],
   },
   {
     id: 'club-inter-milan',
@@ -483,13 +422,7 @@ export const clubs = [
     categoria: 'clubes',
     titulo: 'Inter Milan',
     parrafo: 'Camiseta local 2026 y futuros detalles del Inter Milan.',
-    imagenes: [
-      createImageItem(
-        '/images/contenidos/clubes/intermilan-2026-local.jpg',
-        'inter-milan-local',
-        '/ligas/italia/inter-milan'
-      ),
-    ],
+    imagenes: [detCountries[0].imagenes[3]],
   },
 ];
 
