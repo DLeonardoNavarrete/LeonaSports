@@ -46,14 +46,6 @@ const Carrusel = ({ imagenes, tituloSeccion, parrafoSeccion, idSeccion }) => {
                   className="img" 
                 />
               </Link>
-              {(img.reacts || img.info) && (
-                <div className='carrusel-sidebar'>
-                  <div className='reacts'>{img.reacts}</div>
-                  <div className='info'>
-                    <p>{img.info}</p>
-                  </div>
-                </div>
-              )}
             </div>
           </SwiperSlide>
         ))}
