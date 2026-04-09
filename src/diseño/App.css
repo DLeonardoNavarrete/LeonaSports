@@ -5,14 +5,14 @@
 @tailwind utilities;
 
 .App {
-  width: min(1380px, calc(100% - 24px));
+  width: min(1250px, calc(100% - 24px));
   margin: 0 auto;
   padding: 18px 0 40px;
 }
 
 .content-App {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr));
   gap: clamp(18px, 2vw, 28px);
   padding: clamp(14px, 2vw, 32px) 0;
   align-items: start;
