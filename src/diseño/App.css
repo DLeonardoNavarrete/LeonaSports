@@ -18,6 +18,10 @@
   align-items: start;
 }
 
+.content-App > * {
+  min-width: 0;
+}
+
 .detalle-page {
   width: min(1380px, calc(100% - 24px));
   margin: 0 auto;
@@ -51,5 +55,11 @@
   .detalle-page {
     width: min(100%, calc(100% - 16px));
     padding-top: 12px;
+  }
+
+  .content-App {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 14px 0 24px;
   }
 }
