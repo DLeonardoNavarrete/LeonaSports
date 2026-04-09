@@ -1,11 +1,11 @@
-import { StrictMode } from 'react';
+﻿import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 
 import App from './App.jsx';
 
-import './diseño/Index.css?=v1.1';
-import './diseño/App.css?=v1.1';
+import './diseno/Index.css?=v1.1';
+import './diseno/App.css?=v1.1';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

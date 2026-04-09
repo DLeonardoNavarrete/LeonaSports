@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+﻿import { Route, Routes } from 'react-router-dom';
 
 import Header from './components/header/Header';
 import Carrusel from './components/carrusel/carrusel';
@@ -6,7 +6,7 @@ import DetClub from './components/detClub/detClub';
 import DetTeam from './components/detTeam/detTeam';
 import NotFound from './components/notFound/NotFound';
 import { homeSections } from './dataInfo/data';
-import './diseño/App.css';
+import './diseno/App.css';
 
 function Home() {
   return (
