@@ -1,4 +1,4 @@
-@import "tailwindcss";
+﻿@import "tailwindcss";
 
 @tailwind base;
 @tailwind components;
@@ -12,11 +12,89 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/montserrat-v31-latin-regular.woff2') format('woff2');
+  font-display: swap;
+}
+
 :root {
   --primary-color: #dbb754;
   --secondary-color: #060709;
   --tertiary-color: #cc9210;
   --text-color: #c2c1b9;
-  background-color: #1A1A1A;
-  color: #FFFFFF;
+  --text-soft: #f4f1e8;
+  --surface-color: #111315;
+  --surface-alt: #171a1d;
+  --border-color: rgba(219, 183, 84, 0.24);
+  --shadow-color: rgba(0, 0, 0, 0.24);
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+html {
+  font-size: clamp(14px, 0.82rem + 0.25vw, 18px);
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background:
+    radial-gradient(circle at top, rgba(219, 183, 84, 0.08), transparent 28%),
+    linear-gradient(180deg, #1a1a1a 0%, #090a0d 100%);
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+img,
+svg,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: 'Bebas Neue', sans-serif;
+  line-height: 1.05;
+  letter-spacing: 0.03em;
+  overflow-wrap: anywhere;
+}
+
+p,
+a,
+span,
+button,
+input,
+textarea,
+li {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+a {
+  color: inherit;
 }

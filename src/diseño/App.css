@@ -1,37 +1,55 @@
-@import "tailwindcss";
+﻿@import "tailwindcss";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'Bebas Neue';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../assets/fonts/bebas-neue-v16-latin-regular.woff2') format('woff2');
-  font-display: swap;
-}
-
-:root {
-  --primary-color: #dbb754;
-  --secondary-color: #060709;
-  --tertiary-color: #cc9210;
-  --text-color: #c2c1b9;
-  background-color: #1A1A1A;
-  color: #FFFFFF;
+.App {
+  width: min(1380px, calc(100% - 24px));
+  margin: 0 auto;
+  padding: 18px 0 40px;
 }
 
 .content-App {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 24px;
-  padding: 32px;
-  justify-content: center; 
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  gap: clamp(18px, 2vw, 28px);
+  padding: clamp(14px, 2vw, 32px) 0;
+  align-items: start;
 }
 
-@media (max-width: 1px) {
-  .content-App {
-    grid-template-columns: 1fr;
-    padding: 16px;
+.detalle-page {
+  width: min(1380px, calc(100% - 24px));
+  margin: 0 auto;
+  padding: 18px 0 40px;
+}
+
+.error-page {
+  display: grid;
+  gap: 12px;
+  justify-items: center;
+  padding: clamp(32px, 5vw, 64px) clamp(18px, 3vw, 32px);
+  border: 1px solid rgba(219, 183, 84, 0.22);
+  background: rgba(17, 19, 21, 0.92);
+  text-align: center;
+}
+
+.error-page h2 {
+  font-size: clamp(2rem, 1.7rem + 1vw, 3.4rem);
+  color: var(--primary-color);
+}
+
+.error-page p {
+  margin: 0;
+  max-width: 60ch;
+  color: var(--text-color);
+  font-size: clamp(0.95rem, 0.9rem + 0.2vw, 1.08rem);
+}
+
+@media (max-width: 640px) {
+  .App,
+  .detalle-page {
+    width: min(100%, calc(100% - 16px));
+    padding-top: 12px;
   }
 }
